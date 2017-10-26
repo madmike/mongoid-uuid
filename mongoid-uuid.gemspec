@@ -14,7 +14,7 @@ Gem::Specification.new 'mongoid-uuid', Mongoid::UUID::VERSION do |spec|
   spec.required_ruby_version     = '~> 2.1'
   spec.required_rubygems_version = '~> 2.4'
 
-  spec.add_runtime_dependency 'mongoid', '>= 5.0', '< 6.0'
+  spec.add_runtime_dependency 'mongoid', '>= 5.0'
   spec.add_runtime_dependency 'uuid',    '~> 2.3', '>= 2.3.8'
 
   spec.add_development_dependency 'rake',          '~> 10.5', '>= 10.5.0'
